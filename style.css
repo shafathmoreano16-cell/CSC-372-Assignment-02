@@ -118,7 +118,30 @@ img {
   margin-top: 2rem;
 }
 
-/* responsive: stack sidebar below main on small screens */
+.price-tag {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.favorite-btn {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.favorite-selected {
+  outline: 3px solid #ffd54a;
+  outline-offset: 4px;
+}
+
+#favorites-summary {
+  margin-top: 1rem;
+}
+
+#favorites-list {
+  padding-left: 1.25rem;
+}
+
 @media (max-width: 900px) {
   .page {
     flex-direction: column;
